@@ -1,6 +1,6 @@
 # C++ Revision Repo
 
-##Topics currently covered:
+## Topics currently covered:
 
 - Exceptions
 - Static
