@@ -11,20 +11,20 @@
 				<Option working_dir="/home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPtrs_Functors_Lambda">
@@ -43,10 +43,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPtrs_Functors_Lambda"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPtrs_Functors_Lambda"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FPtrs_Functors_Lambda/fast">
@@ -65,23 +65,26 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPtrs_Functors_Lambda/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 FPtrs_Functors_Lambda/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kyle/Documents/Workspace/C++/1.\ Revision/FPtrs\ Functors\ Lambda/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/MyFunctor.h">
+			<Option target="FPtrs_Functors_Lambda"/>
+		</Unit>
 		<Unit filename="/home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/main.cpp">
 			<Option target="FPtrs_Functors_Lambda"/>
 		</Unit>

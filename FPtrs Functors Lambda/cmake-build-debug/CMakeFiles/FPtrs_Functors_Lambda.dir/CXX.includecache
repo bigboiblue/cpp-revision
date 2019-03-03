@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/MyFunctor.h
+
 /home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/main.cpp
 iostream
 -
@@ -13,6 +15,14 @@ vector
 -
 algorithm
 -
+functional
+-
+maths.h
+/home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/maths.h
+MyFunctor.h
+/home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/MyFunctor.h
+
+/home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/maths.cpp
 maths.h
 /home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/maths.h
 
