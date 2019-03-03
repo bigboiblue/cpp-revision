@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+maths.h
+/home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/maths.h
+
+/home/kyle/Documents/Workspace/C++/1. Revision/FPtrs Functors Lambda/maths.h
+

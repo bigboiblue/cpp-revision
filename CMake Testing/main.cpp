@@ -3,7 +3,14 @@
 
 #include "Person.hpp"
 
+#if OS == 1 //1 being linux
+    #define GAY "SUK MADIK"
+#else
+    #define GAY "ello"
+#endif
+
 int main(){
+    std::cout << GAY << std::endl;
 
     std::vector<Person> people;
 
@@ -12,8 +19,8 @@ int main(){
     people.reserve(20);
 
 
-    #if 0 //This is an inefficient method of adding items to a vector.
-          //First, the parameterised Ctor is called. Then the copy ctor is called...
+    #if 0 //This is an inneficient method of adding items to a vector.
+        //First, the parameterised Ctor is called. Then the copy ctor is called...
         people.push_back(Person("Mark"));
     #endif
 

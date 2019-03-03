@@ -18,12 +18,17 @@ int main(){
     //multimap::equal_range(x) returns a std::pair of iterators to first and last element with the given key
     std::cout << "Elements equal to Jerry:" << std::endl;
     auto its = heights.equal_range("Jerry");
-    if(std::distance(its.first, its.second) != 0){
+    if(std::distance(its.first, its.second) > 0){
         do{
             std::cout << "Key: " << its.first->first << " --- Value: " << its.first->second << std::endl;
         }while(++its.first != its.second);
+    }else{
+        std::cout << "None found" << std::endl;
     }
+    //Also a count(x) function
 
+
+    //Same traversal
     std::cout << "\nAll elements: " << std::endl;
     //Still sorts based on key
     for(auto it = heights.begin(); it != heights.end(); it++){

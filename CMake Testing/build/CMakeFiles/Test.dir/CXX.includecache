@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kyle/Documents/Workspace/C++/1. Revision/CMake Testing/Person.hpp
+string
+-
+
+/home/kyle/Documents/Workspace/C++/1. Revision/CMake Testing/main.cpp
+iostream
+-
+vector
+-
+Person.hpp
+/home/kyle/Documents/Workspace/C++/1. Revision/CMake Testing/Person.hpp
+

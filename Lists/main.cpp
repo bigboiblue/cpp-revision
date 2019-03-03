@@ -5,7 +5,7 @@ int main(){
     //linked list (no random access, must use iterators)
     std::list<int> numbers;
 
-    numbers.push_back(1);
+    numbers.emplace_back(1);
     numbers.push_back(2);
     numbers.push_back(3);
     numbers.push_back(5);
@@ -15,6 +15,7 @@ int main(){
 
     //std::next returns the iterator (in first arg) incremented by the num times in the second arg
     auto space4 = std::next(numbers.begin(), 4);
+    //Emplaces 1 minus the position (think about it, must insert 1 minus pos of iterator due to off the end iterator)
     numbers.emplace(space4, 4);
 
     #if 0 //Cannot do random access

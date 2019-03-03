@@ -24,8 +24,8 @@ public:
     void printInfo();
 private:
 
-    int pid;
     std::string name;
+    int pid;
     static int numObjects;
 
 };

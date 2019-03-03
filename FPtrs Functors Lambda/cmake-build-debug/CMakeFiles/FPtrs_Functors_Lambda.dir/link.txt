@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -Wall -g   CMakeFiles/FPtrs_Functors_Lambda.dir/main.cpp.o CMakeFiles/FPtrs_Functors_Lambda.dir/maths.cpp.o  -o FPtrs_Functors_Lambda 

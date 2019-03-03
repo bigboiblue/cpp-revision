@@ -1,20 +1,35 @@
+###########################################################
+###                  Example Makefile                   ###
+###########################################################
+
+
+CC = g++ -std=c++14 -Wall
+BIN = ./bin
+EXE = $(BIN)/example
+#wildcard function (Replaces wildcard with actual string/ Otherwise it would literally use the asterisk)
+SRCS = $(wildcard *.cpp)
+#Pattern subsitution
+OBJS = $(patsubst %.cpp, $(BIN)/%.o, $(SRCS))
+LINKFLAGS = -o $(EXE)
+
+#Makefiles can remake themselves. This disables make from searching for implicit rules to remake the makefile 
+Makefile: ;
+
 run: all
-	./bin/example
+	$(EXE)
 
-all: dir example
+all: $(EXE)
 
-example: main.o Person.o
-	g++ -o ./bin/example ./bin/main.o ./bin/Person.o
+$(EXE): $(OBJS)
+	$(CC) $(OBJS) $(LINKFLAGS)
 
-main.o: main.cpp
-	g++ -c main.cpp -o ./bin/main.o
-
-Person.o: Person.cpp
-	g++ -c Person.cpp -o ./bin/Person.o
+$(OBJS): $(BIN)/%.o: %.cpp | dir
+	$(CC) -c $< -o $@
 
 dir:
-	mkdir -p bin
+	@mkdir -p $(BIN)
 
 clean:
-	rm -f ./bin/*
-	#rm -f *.o example
+	rm -rf $(BIN)/*
+
+.PHONY: run all dir clean

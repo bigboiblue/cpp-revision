@@ -5,7 +5,7 @@
 int Person::numObjects = 0;
 
 Person::Person(std::string name)
-:pid(++Person::numObjects), name(name){
+:pid(++Person::numObjects){
     std::cout << "Parameterised Ctor Called" << std::endl;
 }
 
