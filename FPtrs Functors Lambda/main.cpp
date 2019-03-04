@@ -8,8 +8,13 @@
 
 
 //Functors, lambdas, and function ptrs can be passed to a function using std::function as a parameter.
-void printStuff(std::string str, std::function<int(int)> func){
-    std::cout << str << func(5) << std::endl;
+void printStuff(const std::string &str, int x, const std::function<int(int)> &func){
+    std::cout << str << func(x) << std::endl;
+}
+
+
+void useFPtr(std::string (*fPtr)(std::string) ){
+    std::cout << fPtr("Clapped") << std::endl;
 }
 
 
@@ -31,21 +36,45 @@ int main() {
     std::vector<double> numbers = {4.0, 6.4, -43.1};
     //Last param is a bool function ptr
     long numMoreThanZero = std::count_if(numbers.begin(), numbers.end(), maths::moreThanZero);
-    std::cout << "\nNumber more than zero: " << numMoreThanZero << std::endl;
+    std::cout << "Number more than zero: " << numMoreThanZero << std::endl;
 
 
 
     //// FUNCTOR
 
+    std::cout << "\nFunctors" << std::endl;
+
     //Sets x var in ftor to ten (state var).... When the functor is "Called" it will add 10 (x) to y (whatever is in the parenthesis)
     MyFunctor ftor(10);
 
-    printStuff("The functor addition results in: ", ftor); //Will do 5 + 10 (15)
+    printStuff("The functor addition results in: ", 5,  ftor); //Will do 5 + 10 (15)
 
     //// LAMBDA
 
+    std::cout << "\nLambda Expressions" << std::endl;
 
 
+    //There are 3 parts to a lambda:
+        //1: [] The capture list
+        //2: () The params
+        //3: {} The code
+
+    //The most simple lambda that instantly calls itself (does nothing)
+    [](){}();
+
+    //A lambda is essentially a functor created using a fancy syntactic sugar, however when a lambda captures nothing, it evaluates to a function pointer:
+    useFPtr([] (std::string x) {return x + " GUVNA";});//As you may notice, the return type is deduces implicitly by the compiler
+
+    //As a lambda is actually a complex functor type under the hood, it can be passed as a std::function e.g.
+    double x = 5.0;
+    //Can capture a var in capture list. Acts much like a member variable in a functor
+    long numMoreThanX = std::count_if(numbers.begin(), numbers.end(),  [x] (double y) {return y > x;}  ); //std::count_if uses std::function as a param. Lambdas can be passed as a std::function
+    std::cout << "Number more than X: " << numMoreThanX << std::endl;
+
+    //If you you use = or & first in the capture list e.g. [=](){} or [&](){}  it will capture all local symbols by value or reference
+    //You can also pass all except x by value or all but y by ref e.g. [=, &x] [&, y]
+    //Additionally, since a lambda is an class in itself, it does not have access to private variables, therefore, if you want to access the current objects local variables you must capture "this"
+    //e.g. [this](){}  This captures member in the class by reference (as this is a pointer / location to the actual object), therefore you can no longer capture members of the class by value
 
     return 0;
 }
