@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kyle/Documents/Workspace/C++/1. Revision/Friend/SomeClass.cpp
+SomeClass.h
+/home/kyle/Documents/Workspace/C++/1. Revision/Friend/SomeClass.h
+
+/home/kyle/Documents/Workspace/C++/1. Revision/Friend/SomeClass.h
+iostream
+-
+string
+-
+
+/home/kyle/Documents/Workspace/C++/1. Revision/Friend/main.cpp
+iostream
+-
+SomeClass.h
+/home/kyle/Documents/Workspace/C++/1. Revision/Friend/SomeClass.h
+
