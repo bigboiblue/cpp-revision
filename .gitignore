@@ -1,2 +1,3 @@
 *.gch
 bin/
+cmake-build-debug/

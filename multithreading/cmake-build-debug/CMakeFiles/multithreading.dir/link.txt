@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/multithreading.dir/main.cpp.o  -o multithreading -lpthread 
+/usr/bin/c++  -Wall -g  -rdynamic CMakeFiles/multithreading.dir/main.cpp.o  -o multithreading  -L/usr/lib/libpthread.so -Wl,-rpath,/usr/lib/libpthread.so -lpthread 

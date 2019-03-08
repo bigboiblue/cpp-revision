@@ -60,15 +60,15 @@ include CMakeFiles/multithreading.dir/flags.make
 CMakeFiles/multithreading.dir/main.cpp.o: CMakeFiles/multithreading.dir/flags.make
 CMakeFiles/multithreading.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kyle/Documents/Workspace/C++/1. Revision/multithreading/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/multithreading.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multithreading.dir/main.cpp.o -c "/home/kyle/Documents/Workspace/C++/1. Revision/multithreading/main.cpp"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multithreading.dir/main.cpp.o -c "/home/kyle/Documents/Workspace/C++/1. Revision/multithreading/main.cpp"
 
 CMakeFiles/multithreading.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multithreading.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kyle/Documents/Workspace/C++/1. Revision/multithreading/main.cpp" > CMakeFiles/multithreading.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kyle/Documents/Workspace/C++/1. Revision/multithreading/main.cpp" > CMakeFiles/multithreading.dir/main.cpp.i
 
 CMakeFiles/multithreading.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multithreading.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kyle/Documents/Workspace/C++/1. Revision/multithreading/main.cpp" -o CMakeFiles/multithreading.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kyle/Documents/Workspace/C++/1. Revision/multithreading/main.cpp" -o CMakeFiles/multithreading.dir/main.cpp.s
 
 # Object files for target multithreading
 multithreading_OBJECTS = \

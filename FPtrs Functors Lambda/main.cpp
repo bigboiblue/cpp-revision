@@ -35,7 +35,7 @@ int main() {
     //Using function pointers in std function (std::count_if())
     std::vector<double> numbers = {4.0, 6.4, -43.1};
     //Last param is a bool function ptr
-    long numMoreThanZero = std::count_if(numbers.begin(), numbers.end(), maths::moreThanZero);
+    long numMoreThanZero = std::count_if(numbers.begin(), numbers.end(), maths::moreThanZero); //Unary predicate
     std::cout << "Number more than zero: " << numMoreThanZero << std::endl;
 
 
@@ -63,7 +63,10 @@ int main() {
     [](){}();
 
     //A lambda is essentially a functor created using a fancy syntactic sugar, however when a lambda captures nothing, it evaluates to a function pointer:
+    //Passing vars through the [] capture list is essentially the same as passing vars through the ctor of a functor
     useFPtr([] (std::string x) {return x + " GUVNA";});//As you may notice, the return type is deduces implicitly by the compiler
+    auto lam = [=] (std::string x) {return x;}; // Simply use auto. Its very hard to deduce the complex type of a lambda. Typing is not consistent.
+
 
     //As a lambda is actually a complex functor type under the hood, it can be passed as a std::function e.g.
     double x = 5.0;
@@ -74,7 +77,25 @@ int main() {
     //If you you use = or & first in the capture list e.g. [=](){} or [&](){}  it will capture all local symbols by value or reference
     //You can also pass all except x by value or all but y by ref e.g. [=, &x] [&, y]
     //Additionally, since a lambda is an class in itself, it does not have access to private variables, therefore, if you want to access the current objects local variables you must capture "this"
-    //e.g. [this](){}  This captures member in the class by reference (as this is a pointer / location to the actual object), therefore you can no longer capture members of the class by value
+    //e.g. [this](){}  This captures member in the class by reference (as this is a pointer / location to the actual object)
+    //Since you cant simultaneously catch all by value and by ref, you cant do [this, =] just ast you cant do [&, =];
 
     return 0;
 }
+
+
+#if 0
+struct Printer{
+    Printer(std::string x):x(x){
+
+    }
+
+    template <class T>
+    void operator()(T t){
+        std::cout << t << " --- " << x << std::endl;
+    }
+
+private:
+    std::string x;
+};
+#endif ///Just a lil test
