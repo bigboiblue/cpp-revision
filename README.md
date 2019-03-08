@@ -9,7 +9,8 @@
 - STL
 - Overator Overloading
 - Copy Ctor
-- Makefiles and CMake
+- Makefiles
+- CMake
 - Pure virtual functions
 - Abstract Classes
 - Object Slicing (in polymorphism)
@@ -20,3 +21,13 @@
 - Chrono
 - Friend functions and classes
 - Threads / multithreading
+- Preprocessor directives
+- C++11 list / brace initialisation
+- Smart Pointers
+- Casting
+- Move constructor and assignment operator
+- Decltype
+- Typedef and using
+- Enums and Enum classes
+- RValues and LValues (references)
+- Templates
