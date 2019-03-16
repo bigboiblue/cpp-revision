@@ -58,6 +58,8 @@ int main() {
     //using keyword works in the EXACT same way as typedef (it actually has the same semantics [meaning])
     //using is newer, however (c++11) and can also be used with templates, so favour using
     ////template<class T> using greg = std::vector<T>; <-- this works, but a template declaration cannot appear at block scope, so is defined at beginning of file
+    greg<int> ello;
+    ello.push_back(1);
 
     ////ENUMS////
     std::cout << "\nEnums: " << std::endl;

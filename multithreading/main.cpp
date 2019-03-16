@@ -3,14 +3,14 @@
 #include <chrono>
 
 
-
+#if 0 //Not used
 void printStringLoop(const std::string &x){
-    while(1){
+    while(true){
         std::cout << x << "\r" << std::flush;
         std::this_thread::yield();
     }
 }
-
+#endif
 
 int main(){
 
@@ -25,7 +25,7 @@ int main(){
 #endif
 
 
-    std::thread t1( [](std::string x){while(1){std::cout << x << '\r' << std::flush;}} , "What is happening!?");
+    std::thread t1( [](std::string x){while(1){std::cout << x << '\r' << std::flush; std::this_thread::yield();}} , "What is happening!?");
 
 
     while(1){

@@ -30,7 +30,7 @@ int main(){
         std::vector<std::string> foods;
         //While not eof or no errors (e.g. badbit)
         while(iFile.good()){
-            foods.resize(foods.size() + 1);
+            foods.emplace_back();
             std::getline(iFile, foods.back());
         }
 

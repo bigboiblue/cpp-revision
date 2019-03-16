@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/Chrono.dir/main.cpp.o  -o Chrono 
+/usr/bin/c++  -g   CMakeFiles/Chrono.dir/main.cpp.o  -o Chrono 

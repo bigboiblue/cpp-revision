@@ -5,6 +5,8 @@
     public:
         ExampleClass();
 
+        ExampleClass(const ExampleClass &other);
+
         static int numOfObjects;
         //Static function can only access static variables. It does not know about member vars
         static void printNumOfObjects();

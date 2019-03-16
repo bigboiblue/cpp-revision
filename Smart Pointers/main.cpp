@@ -42,15 +42,16 @@ int main() {
         std::unique_ptr<Test> pTest2(new Test);
 #endif
 
-        std::unique_ptr<Test> pTest2 = std::move(pTest1); //Now pTest1 is nullptr
+        std::unique_ptr<Test> pTest2 = std::move(pTest1); //Now pTest1 is nullptr (because of unique_ptr's move ctor)
+        std::cout << pTest1.get() << std::endl;
     }
 
 
 
     ////SHARED_PTR////
-    std::cout << "\nShared Pointers:" << std::endl;
+    std::cout << "\nShared Pointers:" << std::endl; //Note, ref count only incremented when a shared_ptr is copied
     //In contrast, there can be multiple shared_ptrs pointing at a single resource. When all shared_ptrs pointing at a single resource go out of scope, then the object is deleted and memory is deallocated
-    //Be careful not to introduced a reference cycles here (where you point a shared pointer at another, and it points back). This will mess up the reference counting.
+    //Be careful not to introduced a reference cycles here (where you point a shared pointer at another, and it points back). This will mess up the reference counting (as it may cause double destruction).
     auto pTest3 = std::make_shared<Test>(); //{Ctor Args} list go in ()
     {
         std::shared_ptr<Test> pTest4 = pTest3;

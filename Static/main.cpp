@@ -25,10 +25,12 @@ int main(){
         switch(choice){
             //Inside Class
             case 1:
-                //Push Back creates a copy of the object, therefore, this should create 20 objects
-                //Although only 10 may have been logged, because instead of calling default ctor, sopy ctor was called
+                exampleClasses.reserve(20);
+                //Push Back creates a copy of the object, therefore, this should create 20 objects (as copy ctor called also)
+                //To avoid use emplace back
                 for(int i = 0; i < 10; i++){
-                    exampleClasses.push_back(ExampleClass());
+                    //exampleClasses.push_back(ExampleClass());
+                    exampleClasses.emplace_back();
                 }
 
                 ExampleClass::printNumOfObjects();

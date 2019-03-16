@@ -13,10 +13,6 @@ int main() {
     std::chrono::time_point<clock> x = clock::now();
 
 
-    //std::chrono::duration<int, std::chrono::seconds> start = clock::now();
-    //std::chrono::duration<int, std::chrono::seconds> finish = clock::now();
-
-
     for(int i = 0; i < 100000; i++){
         std::cout << "You wot m8\r";
     }

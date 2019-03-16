@@ -60,28 +60,28 @@ include CMakeFiles/Friend.dir/flags.make
 CMakeFiles/Friend.dir/main.cpp.o: CMakeFiles/Friend.dir/flags.make
 CMakeFiles/Friend.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kyle/Documents/Workspace/C++/1. Revision/Friend/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Friend.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Friend.dir/main.cpp.o -c "/home/kyle/Documents/Workspace/C++/1. Revision/Friend/main.cpp"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Friend.dir/main.cpp.o -c "/home/kyle/Documents/Workspace/C++/1. Revision/Friend/main.cpp"
 
 CMakeFiles/Friend.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Friend.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kyle/Documents/Workspace/C++/1. Revision/Friend/main.cpp" > CMakeFiles/Friend.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kyle/Documents/Workspace/C++/1. Revision/Friend/main.cpp" > CMakeFiles/Friend.dir/main.cpp.i
 
 CMakeFiles/Friend.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Friend.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kyle/Documents/Workspace/C++/1. Revision/Friend/main.cpp" -o CMakeFiles/Friend.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kyle/Documents/Workspace/C++/1. Revision/Friend/main.cpp" -o CMakeFiles/Friend.dir/main.cpp.s
 
 CMakeFiles/Friend.dir/SomeClass.cpp.o: CMakeFiles/Friend.dir/flags.make
 CMakeFiles/Friend.dir/SomeClass.cpp.o: ../SomeClass.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kyle/Documents/Workspace/C++/1. Revision/Friend/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Friend.dir/SomeClass.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Friend.dir/SomeClass.cpp.o -c "/home/kyle/Documents/Workspace/C++/1. Revision/Friend/SomeClass.cpp"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Friend.dir/SomeClass.cpp.o -c "/home/kyle/Documents/Workspace/C++/1. Revision/Friend/SomeClass.cpp"
 
 CMakeFiles/Friend.dir/SomeClass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Friend.dir/SomeClass.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kyle/Documents/Workspace/C++/1. Revision/Friend/SomeClass.cpp" > CMakeFiles/Friend.dir/SomeClass.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kyle/Documents/Workspace/C++/1. Revision/Friend/SomeClass.cpp" > CMakeFiles/Friend.dir/SomeClass.cpp.i
 
 CMakeFiles/Friend.dir/SomeClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Friend.dir/SomeClass.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kyle/Documents/Workspace/C++/1. Revision/Friend/SomeClass.cpp" -o CMakeFiles/Friend.dir/SomeClass.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kyle/Documents/Workspace/C++/1. Revision/Friend/SomeClass.cpp" -o CMakeFiles/Friend.dir/SomeClass.cpp.s
 
 # Object files for target Friend
 Friend_OBJECTS = \

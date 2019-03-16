@@ -11,6 +11,10 @@ ExampleClass::ExampleClass(){
     ExampleClass::numOfObjects++;
 }
 
+ExampleClass::ExampleClass(const ExampleClass &other){
+    ExampleClass::numOfObjects++;
+}
+
 void ExampleClass::printNumOfObjects(){
     std::cout << "Number of ExampleClass objects = " <<numOfObjects << std::endl;
 }

@@ -27,10 +27,11 @@ int main(){
     //When you use "map[key] = value" you cannot tell whether you initialised an element, or simply changed an element
     //To solve this problem, you could use map::insert or map::emplace. If an element with the specified key already exists
     //It is not changed ---- PS: make_pair(x,y) inits and returns a pair
-    #if 0 //emplace introduced in c++11 avoids unnecessary copy of object
+    #if 0 //emplace introduced in c++11 avoids unnecessary copy of object (as it uses args to init the obj)
         ages.insert(std::make_pair("Harry", 23));
     #endif
     ages.emplace("Harry", 23);
+    ages.emplace("Harry", 21); //Wont change value
 
 
 

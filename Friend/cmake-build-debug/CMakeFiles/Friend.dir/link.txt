@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/Friend.dir/main.cpp.o CMakeFiles/Friend.dir/SomeClass.cpp.o  -o Friend 
+/usr/bin/c++  -g   CMakeFiles/Friend.dir/main.cpp.o CMakeFiles/Friend.dir/SomeClass.cpp.o  -o Friend 

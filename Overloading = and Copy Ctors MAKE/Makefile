@@ -12,7 +12,7 @@ SRCS = $(wildcard *.cpp)
 OBJS = $(patsubst %.cpp, $(BIN)/%.o, $(SRCS))
 LINKFLAGS = -o $(EXE)
 
-#Makefiles can remake themselves. This disables make from searching for implicit rules to remake the makefile 
+#Makefiles can remake themselves. This disables make from searching for implicit rules to remake the makefile
 Makefile: ;
 
 run: all
