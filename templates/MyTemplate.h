@@ -7,8 +7,9 @@
 //// T's must be expanded at compile time to ensure they are used correctly (for example, << operator may not be defined for a specific type)
 
 //// If your adamant you want to separate interface and implementation (which I am), you can include the implementation file at the end inside include guard (I used .tpp extension so it doesnt get compiled)
+//// Remember if you do this, you will need to include .tpp file with headers when distributing a library
 
-#ifndef TEMPLATES_MYTEMPLATE_H //#ifndef checks whether the given token has been #defined earlier in the file or in an included file (i didnt know this...)
+#ifndef TEMPLATES_MYTEMPLATE_H //#ifndef checks whether the given token has been #defined earlier in the file or in an included file (i didnt know this...) [So #define only defines for current translation unit]
 #define TEMPLATES_MYTEMPLATE_H
 
 
@@ -22,11 +23,12 @@ public:
 
     void printInfo();
 
-    //Can create a template function within the template class:
+    //Can create/nest a template function within the template class:
     template<class C>
     auto combine(T t, C c) -> decltype(t + c);
 
     T getMyT();
+
 
 
     ////NESTING TEMPLATE CLASSES

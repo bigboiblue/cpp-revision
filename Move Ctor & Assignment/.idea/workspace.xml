@@ -14,11 +14,36 @@
     <list default="true" id="fe8ba629-45a0-42d8-a884-54de7a4171a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../C++11 Init/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../C++11 Init/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../C++11 Init/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++11 Init/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chrono/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chrono/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chrono/cmake-build-debug/CMakeFiles/Chrono.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Chrono/cmake-build-debug/CMakeFiles/Chrono.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chrono/cmake-build-debug/Chrono" beforeDir="false" afterPath="$PROJECT_DIR$/../Chrono/cmake-build-debug/Chrono" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chrono/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Chrono/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FPtrs Functors Lambda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FPtrs Functors Lambda/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FPtrs Functors Lambda/MyFunctor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FPtrs Functors Lambda/MyFunctor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FPtrs Functors Lambda/cmake-build-debug/CMakeFiles/FPtrs_Functors_Lambda.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../FPtrs Functors Lambda/cmake-build-debug/CMakeFiles/FPtrs_Functors_Lambda.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FPtrs Functors Lambda/cmake-build-debug/FPtrs_Functors_Lambda" beforeDir="false" afterPath="$PROJECT_DIR$/../FPtrs Functors Lambda/cmake-build-debug/FPtrs_Functors_Lambda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FPtrs Functors Lambda/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../FPtrs Functors Lambda/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.h" beforeDir="false" afterPath="$PROJECT_DIR$/Test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Overloading = and Copy Ctors MAKE/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Overloading = and Copy Ctors MAKE/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RValue and LValue References/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RValue and LValue References/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RValue and LValue References/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../RValue and LValue References/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Smart Pointers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Smart Pointers/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Smart Pointers/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Smart Pointers/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Typedef Decltype Enum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Typedef Decltype Enum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Typedef Decltype Enum/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Typedef Decltype Enum/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../casting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../casting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casting/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../casting/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multithreading/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../multithreading/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multithreading/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../multithreading/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multithreading/cmake-build-debug/CMakeFiles/multithreading.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../multithreading/cmake-build-debug/CMakeFiles/multithreading.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multithreading/cmake-build-debug/multithreading" beforeDir="false" afterPath="$PROJECT_DIR$/../multithreading/cmake-build-debug/multithreading" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multithreading/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../multithreading/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../templates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../templates/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/MyTemplate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../templates/MyTemplate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/MyTemplate.tpp" beforeDir="false" afterPath="$PROJECT_DIR$/../templates/MyTemplate.tpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../templates/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,14 +57,18 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="192">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -50,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+            <state relative-caret-position="608">
+              <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
               <folding>
                 <element signature="e#39#56#0" expanded="true" />
               </folding>
@@ -62,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="346">
+              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="e#112#129#0" expanded="true" />
               </folding>
@@ -79,13 +108,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test.h" />
-        <option value="$PROJECT_DIR$/Test.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Test.cpp" />
+        <option value="$PROJECT_DIR$/Test.h" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2" />
     <option name="width" value="1924" />
     <option name="height" value="1053" />
@@ -98,8 +127,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,27 +169,32 @@
       <updated>1551948625234</updated>
       <workItem from="1551948626994" duration="7789000" />
       <workItem from="1552078373774" duration="388000" />
+      <workItem from="1552906515699" duration="2273000" />
+      <workItem from="1552976599538" duration="264000" />
+      <workItem from="1553163040618" duration="1762000" />
+      <workItem from="1553672311187" duration="571000" />
+      <workItem from="1553875588980" duration="520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8177000" />
+    <option name="totallyTimeSpent" value="13567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1924" height="1053" extended-state="0" />
+    <frame x="-2" y="0" width="1924" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38633937" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26894343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44047618" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18980478" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -190,12 +224,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="346">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
             <element signature="e#112#129#0" expanded="true" />
           </folding>
@@ -204,8 +242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        <state relative-caret-position="608">
+          <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
           <folding>
             <element signature="e#39#56#0" expanded="true" />
           </folding>
@@ -214,8 +252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="192">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

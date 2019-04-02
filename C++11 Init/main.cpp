@@ -28,13 +28,9 @@ public:
     }
 
 private:
-    std::initializer_list<std::string> texts;
+    std::vector<std::string> texts;
     int x{0}; //You can also set default values for members of a class should they not be initialized through a ctor (can also be done with = or ())
 };
-
-
-
-
 
 
 
@@ -69,7 +65,7 @@ int main() {
     //Additionally, using () for init can look a little like function declarations: int x();
 
     int z1(); //This is confusingly parsed as a function declaration
-    int z2{}; //This is a variable
+    int z2{}; //This is a default initialised variable
 
 
 
@@ -109,8 +105,6 @@ int main() {
         std::cout << pInts[i] << std::endl;
     }
     delete [] pInts;
-
-
 
 
 

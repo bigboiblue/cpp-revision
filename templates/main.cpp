@@ -8,31 +8,29 @@
 //Can also simply define a template function outside a class:
 template <class T> //Can also use typename instead e.g. template <typename T>
 void printT(T t) {
-    std::cout << "Param <template version> = " << t << std::endl;
+    std::cout << "<template version> Param = " << t << std::endl;
 }
 
 void printT(int t) {
-    std::cout << "Param (int version) = " << t << std::endl;
+    std::cout << "(int version) Param = " << t << std::endl;
 }
 
 
 int main() {
-
     ////Template Class
     using U64 = long long;
 
     MyTemplate<U64> t1(LONG_LONG_MAX);
     t1.printInfo();
-    //std::cout << myTemplate.combine<char>(myTemplate.getMyT(), 'g') << std::endl; <--- //function template argument deduction means you dont necessarily have to specify template params.
+    //std::cout << myTemplate.combine<char>(myTemplate.getMyT(), 'g') << std::endl;
     //(its type can be inferred at compile time)
-    std::cout << t1.combine(t1.getMyT(), 'g') << std::endl;
+    std::cout << t1.combine(t1.getMyT(), 'g') << std::endl; // <--- function template argument deduction means you dont necessarily have to specify template params.
 
     MyTemplate t2(322); // in c++17 CLASS template argument deduction was introduced also
 
     ////Nested Template Class
     MyTemplate<int>::iterator it;
     it.print();
-
 
     ////Template function
     std::cout << std::endl;

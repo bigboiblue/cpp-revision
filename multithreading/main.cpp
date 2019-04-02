@@ -1,6 +1,5 @@
 #include <iostream>
 #include <thread> //SEE CMAKELISTS.TXT : Using <thread> on linux requires you to link pthread library (POSIX Thread)
-#include <chrono>
 
 
 #if 0 //Not used
@@ -25,8 +24,14 @@ int main(){
 #endif
 
 
-    std::thread t1( [](std::string x){while(1){std::cout << x << '\r' << std::flush; std::this_thread::yield();}} , "What is happening!?");
+    std::thread t1( [](std::string x){
+        while(1){
+            std::cout << x << '\r' << std::flush;
+            std::this_thread::yield();
+        }
+    } , "What is happening!?");
 
+    t1.
 
     while(1){
         std::cout << "OH JEEEEEEEEEEEZ" << "\r" << std::flush;

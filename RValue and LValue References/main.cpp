@@ -25,7 +25,7 @@ int main() {
     int someInt = 1;
     int &rSomeInt = someInt;
     //Unless we make the type its referring to const. This will extend the lifetime of the RValue. This must exist, as it is used in copy ctors:
-    const int &rSomeLiteral = 21; //Strangely works. Cannot change temporary vars (which are const by default)
+    const int &rSomeLiteral = 21; //Works. Cannot change temporary vars (I see literals/temp vars as const by default)
 
 
     ////RValue References
@@ -42,15 +42,6 @@ int main() {
     int &someLVal = temp;    //See, its an LValue now...
     check(31);               //RValue passed     <--- RVal Called
     check(someInt);          //LValue passed     <--- Const LVal Called
-
-    int *xx;
-    {
-        int &&greg = 4;
-        xx = &greg;
-        greg = 7;
-    }
-    std::cout << *xx << std::endl;
-
 
 
     return 0;

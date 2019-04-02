@@ -11,8 +11,8 @@
 struct MyFunctor {
     MyFunctor(int x): x(x) {}
 
-    int operator()(int y){
-        return x + y;
+    int operator()(int someParam){
+        return x + someParam;
     }
 
 private:

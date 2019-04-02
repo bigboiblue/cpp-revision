@@ -8,6 +8,7 @@ template <class T>  //// When splitting interface and implementation, you must e
                     //// with the scope its pointing to being type Class<T>::function (as this is the specific class constructed)
                     //// JUST AS YOU DO WHEN NESTING CLASSES
                     //So this is a template function that allows /is defined for any type of MyTemplate
+                    //We need to specify this is a template specifically, as it is possible overload this as a non-template
 MyTemplate<T>::MyTemplate(const T &t)
 :myT(t)
 {

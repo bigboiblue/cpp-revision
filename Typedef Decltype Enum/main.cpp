@@ -3,9 +3,9 @@
 #include <climits>
 #include <vector>
 
-
 ////USING TEMPLATE////
-template <class T> using greg = std::vector<T>;
+template <class T>
+using greg = std::vector<T>;
 /////
 
 
@@ -31,6 +31,7 @@ int main() {
     //typeid() returns a type_info object
     //The following gives a strange output. This is because of name mangling
     //Name mangling is the encoding of function and variable names so that a linker can separate common names (such as overloaded functions) in a language
+        //e.g two functions have the same names, but you can look at the typeid to deduce differences in their type (return and params)
     std::string someString;
     std::cout << typeid(someString).name() << std::endl;
 
@@ -57,7 +58,7 @@ int main() {
     //using [your-alias] = [original-type];
     //using keyword works in the EXACT same way as typedef (it actually has the same semantics [meaning])
     //using is newer, however (c++11) and can also be used with templates, so favour using
-    ////template<class T> using greg = std::vector<T>; <-- this works, but a template declaration cannot appear at block scope, so is defined at beginning of file
+    ////template<class T> using greg = std::vector<T>; <-- this works, but a template declaration cannot appear at block scope (as must be eval at compile time), so is defined at beginning of file
     greg<int> ello;
     ello.push_back(1);
 

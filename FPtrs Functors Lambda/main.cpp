@@ -70,15 +70,16 @@ int main() {
 
     //As a lambda is actually a complex functor type under the hood, it can be passed as a std::function e.g.
     double x = 5.0;
+    //Automatically deduces the return type of a lambda unless you explicitly use a trailing return type (e.g. auto x = []() -> bool {...}).
     //Can capture a var in capture list. Acts much like a member variable in a functor
-    long numMoreThanX = std::count_if(numbers.begin(), numbers.end(),  [x] (double y) {return y > x;}  ); //std::count_if uses std::function as a param. Lambdas can be passed as a std::function
-    std::cout << "Number more than X: " << numMoreThanX << std::endl;
+    long numMoreThanX = std::count_if(numbers.begin(), numbers.end(),  [x](double y){return y > x;}  ); //std::count_if uses std::function as a param. Lambdas can be passed as a std::function
+    std::cout << "Number more than x(" << x << "): " << numMoreThanX << std::endl;
 
     //If you you use = or & first in the capture list e.g. [=](){} or [&](){}  it will capture all local symbols by value or reference
     //You can also pass all except x by value or all but y by ref e.g. [=, &x] [&, y]
     //Additionally, since a lambda is an class in itself, it does not have access to private variables, therefore, if you want to access the current objects local variables you must capture "this"
     //e.g. [this](){}  This captures member in the class by reference (as this is a pointer / location to the actual object)
-    //Since you cant simultaneously catch all by value and by ref, you cant do [this, =] just ast you cant do [&, =];
+    //Since you cant simultaneously catch all by value and by ref, you cant do [this, =] just as you cant do [&, =];
 
     return 0;
 }

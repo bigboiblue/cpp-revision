@@ -6,7 +6,6 @@
 
 #include <iostream>
 
-
 //Param Ctor
 Test::Test(std::initializer_list<const int> iList)
 :nums(new std::vector<int>)
@@ -37,7 +36,7 @@ Test::Test(Test &&other) noexcept
 Test &Test::operator=(const Test &other) {
     std::cout << "Copy Assignment Called" << std::endl;
     delete nums; //Cant just not delete prior objects. Not deleting will cause mem leak
-    nums =(new std::vector<int>(*(other.nums)));
+    nums = (new std::vector<int>(*(other.nums)));
 
     return *this;
 }
@@ -48,7 +47,6 @@ Test &Test::operator=(Test &&other) noexcept {
     delete nums; //Cant just not delete prior objects. Not deleting will cause mem leak
     nums = other.nums; //Steal location of other's members
     other.nums = nullptr; //When other calls destructor to destroy object pointed to, it wont do anything, as it now points to nullptr
-
     return *this;
 }
 

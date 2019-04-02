@@ -7,13 +7,12 @@ CC = g++ -std=c++14 -Wall
 BIN = ./bin
 EXE = $(BIN)/example
 #wildcard function (Replaces wildcard with actual string/ Otherwise it would literally use the asterisk)
-SRCS = $(wildcard *.cpp)
+SRCS := $(wildcard *.cpp)
 #Pattern subsitution
-OBJS = $(patsubst %.cpp, $(BIN)/%.o, $(SRCS))
+OBJS := $(patsubst %.cpp, $(BIN)/%.o, $(SRCS))
 LINKFLAGS = -o $(EXE)
 
 #Makefiles can remake themselves. This disables make from searching for implicit rules to remake the makefile
-Makefile: ;
 
 run: all
 	$(EXE)

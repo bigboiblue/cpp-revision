@@ -65,6 +65,7 @@ int main() {
 #endif
     pBrother->print(); //However, this will work. Despite being a Brother* , remember this points to a parent, so it will call as if a parent
 
+    //Undefined behaviour means not defined by the standard. It means the behaviour may vary from system to system and compiler to compiler.
 
     ////DYNAMIC CAST////
     std::cout << "\nDynamic cast:" <<std::endl;
@@ -76,7 +77,7 @@ int main() {
     pParent = dynamic_cast<Parent *>(pBrother); //Safe, Parent points to a Parent (through a conversion)
     pBrother = dynamic_cast<Brother *>(pParent); //Unsafe, wont have all Brother members
 
-    checkPtr(static_cast<void *>(pParent));
+    checkPtr((pParent));
     checkPtr(static_cast<void *>(pBrother));
 
 
@@ -84,7 +85,7 @@ int main() {
     std::cout << "\nReinterpret cast:" << std::endl;
     //reinterpret_cast is generally used on pointers / ref. In reinterpret_cast, there are no checks at all.
     //It can pretty much convert any pointer type to another pointer type. The underlying binary pattern will remain the same,
-    //however, it the binary pattern will simply be interpreted as if it were the new type
+    //however, its binary pattern will simply be interpreted as if it were the new type
     const char *cString = "Hello world";
     const long *wut = reinterpret_cast<const long*>(cString); //Will have undefined behaviour. Will just read the memory pattern of the string for sizeof(long) bytes
     std::cout << *wut << std::endl;
